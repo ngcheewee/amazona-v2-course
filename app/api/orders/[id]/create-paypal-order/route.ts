@@ -31,4 +31,4 @@ export const POST = auth(async (...request: any) => {
       }
     )
   }
-})
+}) as any
